@@ -9,4 +9,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run Python
       run: python test.py
+       - name: Stop Python
+      run: find / -name 'test.py'
 
